@@ -1,0 +1,14 @@
+.custom-fixed-top {
+    /* Estilos para dispositivos móviles */
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+@media (min-width: 992px) {
+    /* Estilos para pantallas grandes (lg) */
+    .custom-fixed-top {
+        position: static;
+    }
+}
